@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+	<Button
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/btn_alert_dialog"
+	    android:onClick="onClickAlertDialog"
+	    android:text="Show Alert Dialog" />
+	<Button
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/btn_multi_dialog"
+	    android:onClick="onClickMultiDialog"
+	    android:text="Show Multi Dialog" />
+	<Button
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/btn_progress_dialog"
+	    android:onClick="onClickProgressDialog"
+	    android:text="Show Progress Dialog" />
+	<Button
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/btn_detailed_progress_dialog"
+	    android:onClick="onClickDetailedProgressDialog"
+	    android:text="Show Detailed Progress Dialog" />
+
+</LinearLayout>
+
